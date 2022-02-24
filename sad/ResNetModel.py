@@ -1,3 +1,6 @@
+#This model is reproduced as a project work from the research paper named: The DKU Speech Activity Detection and Speaker Identification Systems for Fearless Steps Challenge Phase-02. 
+#by Lin, Qingjian & Li, Tingle & Li, Ming. (2020). 10.21437/Interspeech.2020-1915. 
+
 import padertorch
 from padertorch.base import Model
 import torch
