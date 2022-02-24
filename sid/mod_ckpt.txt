@@ -1,0 +1,15 @@
+To use:
+exp_dir = '/net/vol/dheerajpr/models/SID/2021-09-05-22-42-44' #167 (model asm + model_resnet)  60.93
+ckpt_name = 'ckpt_best_loss.pth'
+
+exp_dir = '/net/vol/dheerajpr/models/SID/2021-09-09-20-08-35' #SID (model_resnet_SID) 59.08
+ckpt_name = 'ckpt_best_loss.pth'
+
+exp_dir = '/net/vol/dheerajpr/models/SID/2021-10-11-18-57-39' # SID (fbanks shift 160 to 180) (model_resnet_SID) 57.61
+ckpt_name = 'ckpt_126000.pth'
+
+exp_dir = '/net/vol/dheerajpr/models/SID/2021-10-15-21-17-48' # SID (logfbanks, epoch validation) 57.54
+ckpt_name = 'ckpt_48280.pth'
+
+exp_dir = '/net/vol/dheerajpr/models/SID/2021-10-12-23-24-11' # SID (logfbanks) (model_resnet_SID) 56.788
+ckpt_name = 'ckpt_48000.pth'
