@@ -1,12 +1,9 @@
 from paderbox.notebook import *
 import paderbox as pb
-import padercontrib as pc
 from padertorch.data.segment import get_segment_boundaries
 from padertorch.data.utils import collate_fn
 
 import numpy as np
-import matplotlib.pyplot as plt
-
 
 def get_data_preparation(data, dataset, batch_size=10, shuffle=False):
     """Accessing audio stream from train stream"""
